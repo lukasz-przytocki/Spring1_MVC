@@ -6,12 +6,14 @@ import java.util.LinkedList;
 public class UserList {
     private LinkedList<Person>usersList = new LinkedList<>();
 
-    public UserList() {
+    public UserList() { //konstruktor bezparametrowy
         usersList.add(new Person("Jan", "Kowalski", 23));
         usersList.add(new Person("Joanna", "Smith", 25));
         usersList.add(new Person("Karol", "Nowak", 40));
         usersList.add(new Person("Krystyna", "Jabłońska", 35));
     }
+
+
 
     public LinkedList getUserList(){
         return usersList;
